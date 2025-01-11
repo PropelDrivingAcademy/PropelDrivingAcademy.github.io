@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia de Conduccion Propel</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-4">
+        <!-- <img src="img/logo.png" alt="Logo" style="width: 40px; height: auto;"> -->
+        <span class="brand">Academia de Conduccion Propel</span>
+      </a>
+      <button class="navbar-menu-mobile open is-size-10 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu"></i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="#top" id="inicio" class="navbar-a navbar-link-active">Inicio</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#about" id="acercaDe" class="navbar-a">Acerca de nosotros</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#section2" id="section" class="navbar-a">Clases de matemáticas/inglés</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#contacto" id="form" class="navbar-a">Contacto</a>
+        </li>
+      </ul>
+  
+  </nav>
+  <!-- Sección del carrusel -->
+
+  <div class="section-body" id="top">
+  <div class="slide-contenedor" >
+      <div class="miSlider fade">
+          <!-- <div class="slider-body">
+              <span class="tag-slider is-size-5-desktop">Increible</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Fotografía</h2>
+              <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p>
+            </div> -->
+          <img src="img/slider-1.png" alt="">
+      </div>
+      <div class="miSlider fade">
+          <!-- <div class="slider-body">
+              <span class="tag-slider">Increible</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Paisaje</h2>
+              <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p>
+            </div> -->
+          <img src="img/slider-2.png" alt="">
+      </div>
+      <div class="miSlider fade">
+          <!-- <div class="slider-body">
+              <span class="tag-slider">Paisaje</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Paisaje</h2>
+              <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p>
+            </div> -->
+          <img src="img/slider-3.png" alt="">
+      </div>
+      <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      <div class="dots">
+          <span class="dot active" onclick="posicionSlide(1)"></span>
+          <span class="dot" onclick="posicionSlide(2)"></span>
+          <span class="dot" onclick="posicionSlide(3)"></span>
+      </div>
+  </div>
+   <!-- About me -->
+  <div class="container" id="about">
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/about-me-mobile.png" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-half section-about-me">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">Acerca de nosotros</h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Escuela de conducción</h5>
+        <p class="text is-size-7-mobile">Somos una autoescuela donde se imparte simultáneamente la enseñanza 
+          teórica y práctica para la obtención de los diferentes permisos y así lograr adquirir tu licencia 
+          de conducción. Su equipo humano cuenta con una calidad en servicio y humana de altos estándares y 
+          suele ofrecer un horario de clases adaptado a cada alumno.</p>
+        <p class="text is-size-7-mobile">
+        </p>
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">Otros servicios</h1>
+        <!-- <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Escuela de conducción</h5> -->
+        <p class="text is-size-7-mobile">
+          - Clases para el examen de conocimiento<br /> - Registraciones de carros <br /> - Renta de vehículos para el examen práctico
+        </p>
+        <p class="text is-size-7-mobile">
+          
+        </p>
+        <p class="text is-size-7-mobile"> 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="section2" class="hero my-hero" style="--banner: url(../img/hero-img.png); --bg-atachment: fixed;">
+    <div class="container-hero">
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+              Clases de matemáticas e inglés
+            </h1>
+            <h5 class="subtitle is-size-5">
+              Para tu crecimiento personal
+            </h5>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <img src="img/matematicas.png" alt="LogoM" style="width: 90px; height: auto;">
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">Clases de Matemáticas</h4>
+              <p class="has-text-centered is-size-7-mobile">Te enseñamos de manera didáctica y muy creativa la ciencia de todas las ciencias</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <img src="img/eng.png" alt="LogoI" style="width: 90px; height: auto;">
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">Clases de Inglés</h4>
+              <p class="has-text-centered is-size-7-mobile">Lograrás establecer una conversación fluida y una excelente lectoescritura en el lenguaje más hablado del mundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contacto -->
+  <div class="container" id="contacto">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">Contactame</h1>
+        <h5 class="subtitle is-size-6">Enviame un mensaje</h5>
+      </div>
+      <div class="column">
+        <form action="#">
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <ul>
+                <li>Nombre: Pedro P</li>
+                <li>Números de telefono: 
+                    <a href="https://wa.me/12675153214" target="_blank" class="whatsapp-link">
+                        267-515-3214
+                    </a> - 267-386-6291
+                </li>
+              </ul>
+            </div>
+            <div class="column is-half">
+              <ul>
+                <li>Correo Electrónico: pedropedroza73@yahoo.com</li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="agradecimientos">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">Agradecimientos</h1>
+        <p class="subtitle is-size-6">
+          Agradecemos a los autores y plataformas por los recursos utilizados en esta página.
+        </p>
+      </div>
+      <div class="column is-half">
+        <ul>
+          <li>Agradecimiento especial a <a href="https://www.flaticon.com/" target="_blank">Flaticon</a> por los iconos educativos.</li>
+        </ul>
+        <ul>
+          <li>Agradecimiento especial a <a href="https://www.freepik.com/" target="_blank">FREEPIK</a> por las respectivas imágenes</li>
+        </ul>
+      </div>
+      <div class="column is-half">
+        <ul>
+          <li>Imágenes de carrusel obtenidas de <a href="https://pixabay.com/" target="_blank">Pixabay</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>
