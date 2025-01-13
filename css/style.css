@@ -710,7 +710,14 @@ form {
   .section-about-me {
     padding: 3rem; } }
 
-#gallery,
+#top{
+  background-color: #d1e4ec;
+  margin-top: 40px;
+  border-top: 2px;
+  padding-left: 50px;
+}
+
+
 #contacto {
       margin-top: 50px;
       padding: 20px;
@@ -797,6 +804,12 @@ figcaption {
   .gallery-container {
     grid-template-columns: repeat(4, 1fr); } }
 
+#about{
+  background-color: #e0edde;
+  margin-top: 40px;
+  border-top: 2px;
+  padding-left: 50px;
+}
 
     #agradecimientos {
       margin-top: 50px;
