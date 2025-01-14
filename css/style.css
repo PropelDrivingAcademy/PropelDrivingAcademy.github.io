@@ -382,29 +382,41 @@ form {
 
 /*====Estilos y configuración del menu responsive===*/
 /*==== Estilos del Navbar container =====*/
-  .navbar-container {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background: var(--primary);
-    height: 0;
-    transition: height 0.4s ease;
-    position: absolute;
-    z-index: 50;
-    overflow: hidden;
-    align-items: center;
-    gap: 15px; }
-  .show {
-    height: 300px;
-    z-index: 50;
-    transition: height 0.4s ease; }
-  .brand-link, .navbar-a {
-    color: var(--white);
-    text-transform: uppercase; }
-  .brand-link:hover {
-    color: var(--white); }
+.navbar-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: var(--primary);
+  height: 0;
+  transition: height 0.4s ease;
+  position: absolute;
+  z-index: 50;
+  overflow: hidden;
+  align-items: center;
+  gap: 0px;
+}
+
+/* Cuando el menú está activo */
+.show {
+  height: auto; /* Ajusta automáticamente al contenido */
+  z-index: 50;
+  transition: height 0.4s ease;
+}
+
+.brand-link, .navbar-a {
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 10px 15px; /* Añade algo de espacio interno */
+  text-decoration: none; /* Elimina subrayados */
+}
+
+.brand-link:hover {
+  color: var(--white);
+}
+
+
 
 /*Estilos de los enlaces de la barra de navegación*/
   .navbar-a:hover {
